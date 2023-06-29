@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>img</title>
+
+    <style>
+        .im{
+            transform:rotate(90deg);
+            width: 15%;
+            display:inline-block;
+        }
+    </style>
+
+</head>
+<body>
+    
+    <h2>Hello</h2>
+
+    <p >click</p>
+
+    <img class="im" id="h" src="./default_wallpaper.jpg"   >
+    
+    <button onclick="document.querySelector('#h').style.display='none'">hide</button> 
+
+    <button onclick="document.querySelector('#h').style.display='inline-block'">show</button>
+
+</body>
+</html>
